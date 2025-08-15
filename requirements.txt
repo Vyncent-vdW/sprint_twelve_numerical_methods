@@ -1,0 +1,40 @@
+###############################################################################
+# Used Car Price Prediction Project Dependencies
+#
+# Create & activate venv (Windows PowerShell):
+#   python -m venv .venv
+#   .\.venv\Scripts\Activate.ps1
+#   pip install -r requirements.txt
+#
+# Core stack: tabular data cleaning, EDA, regression (linear, trees, ensembles,
+# gradient boosting: XGBoost / LightGBM / CatBoost), visualization, notebooks.
+###############################################################################
+
+# Core numerical / data handling
+numpy==1.26.4
+pandas==2.2.2
+scipy==1.11.4          # Needed by scikit-learn & some boosters
+
+# Modeling
+scikit-learn==1.4.2
+xgboost==2.0.3
+lightgbm==4.3.0
+catboost==1.2.5
+
+# Visualization & exploration
+matplotlib==3.8.4
+seaborn==0.13.2
+
+# Notebook / development utilities (optional but convenient)
+ipykernel==6.29.4
+jupyterlab==4.2.4
+tqdm==4.66.4           # Progress bars for longer fits
+
+# Environment / reproducibility (optional)
+python-dotenv==3.12.9
+
+###############################################################################
+# Notes:
+# - NLP / transformer libraries removed (not needed for tabular regression).
+# - Pin versions for reproducibility; adjust only if security/compatibility issues.
+# - If GPU acceleration desired for XGBoost/LightGBM, install matching builds separately.
