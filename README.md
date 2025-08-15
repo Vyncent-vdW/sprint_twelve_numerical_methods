@@ -112,4 +112,4 @@ Add a LICENSE file (MIT / Apache-2.0 recommended).
 Educational dataset context (used car listings) and open-source ML ecosystem: scikit-learn, XGBoost, LightGBM, CatBoost, pandas, seaborn.
 
 ## 🏁 Summary
-A structured pipeline cleanses and analyzes listing data, then benchmarks classical and gradient boosting regressors. XGBoost currently offers the best RMSE with acceptable latency, forming a solid baseline for further tuning and
+A structured pipeline cleanses and analyzes listing data, then benchmarks classical and gradient boosting regressors. XGBoost currently offers the best RMSE with acceptable latency, forming a solid baseline for further tuning and explainability additions.
